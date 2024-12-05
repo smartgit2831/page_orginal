@@ -1,0 +1,93 @@
+.super-offer-section{
+    padding: 20px;
+    font-size: 1em;
+}
+.super-offer-section .super-offer-box{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.super-offer-box .super-offer-box-title{
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 30px;
+    display: inline-block;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.super-offer-box .body .image-container{
+    text-align: center;
+    padding: 30px;
+}
+.super-offer-box .body .image-container img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.8);
+}
+.super-offer-box .body .spesification{
+    padding: 30px 5px;
+}
+.super-offer-box .body .spesification .price-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.super-offer-box .body .spesification .price-row .price{
+    margin-left: 50px;
+    color: #444;
+    font-size: 1.2em;
+}
+.super-offer-box .body .spesification .price-row .off{
+    color: white;
+    background-color: #e74c3c;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+.super-offer-box .body .spesification .title{
+    margin: 40px 0;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.4em;
+}
+.super-offer-box .body .spesification .counter-down{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 1.5em;
+}
+.super-offer-box .body .spesification .remaining-time{
+    color: #777;
+    font-size: 0.8em;
+}
+.banner{
+    text-align: center;
+    padding: 0px 5px;
+}
+.banner img{
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    height: 335px;
+    width: 100%;
+}
+.charkhesh-aks{
+    -moz-transition: all 0.8s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+.charkhesh-aks:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+@media(max-width : 650px){
+    .banner{
+        display: none;
+    }
+}

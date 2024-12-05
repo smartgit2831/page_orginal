@@ -1,0 +1,59 @@
+.jadval{
+    margin-top: 8%;
+}
+.jadval-1{
+    width: 60%;
+    margin-right: 2%;
+    box-shadow: 2px 4px 8px black;
+    border-radius: 7px;
+}
+.jadval-img{
+    width: 80px;
+    height: 80px;
+    padding-left: 5px;
+}
+.incres-dicres{
+    display: flex;
+}
+.jadval-2{
+    border: 1px solid black;
+    width: 245px;
+    height: 181px;
+    margin: 17px;
+    box-shadow: 2px 4px 8px 2px black;
+    border-radius: 17px;
+}
+.jadval-2 p {
+    font-size: 24px;
+}
+.jadval-2 button{
+    width: 100%;
+}
+.majmue{
+    font-size: 22px;
+    color: red;
+}
+.DIV_takhfif{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.tr_th{
+    vertical-align: top;
+}
+.takhfif{
+    padding: 5px;
+    border: 1px solid rgb(59, 55, 55);
+    font-size: 20px;
+}
+.fa-trash{
+    padding: 5px;
+    font-size: 21px;
+    cursor: pointer;
+    color: red;
+}
+@media(max-width : 650px){
+    .jadval{
+        margin-top: 18%;
+    }
+}

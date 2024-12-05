@@ -1,0 +1,55 @@
+footer{
+    background-color: #636e72;
+    font-size: 1em;
+}
+footer .right{
+    padding: 40px;
+}
+footer .right .title{
+    padding: 10px 0;
+    color: white;
+    font-size: 1.2em;
+    border-bottom: 2px solid white;
+}
+footer .right .adress{
+    border-top:1px solid white;
+    font-size: 22px;
+}
+footer .right .des .button1{
+    margin-bottom: 68px;
+}
+.namad-electonik img{
+    width: 300px;
+    margin-top:17px;
+    margin-left: 22px;
+    border-radius: 17px;
+}
+footer .right .des{
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.9em;
+    font-size: 0.9em ;
+}
+
+footer .left{
+    padding: 40px;
+}
+footer .left .title{
+    padding: 10px 0;
+    font-size: 1.2em;
+    color: white;
+}
+footer .left .socials{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+footer .left .socials a{
+    color: white;
+    font-size: 1.4em;
+}
+footer .bottom{
+    background-color: #2d3436;
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.9);
+}

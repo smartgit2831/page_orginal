@@ -1,0 +1,40 @@
+.create_form_div{
+    text-align: center;
+}
+.Create_Form{
+    margin-top: 7%;
+    display: inline-grid;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 4%;
+    padding: 18px;
+    background: #768479;
+    box-shadow: 2px 4px 8px 2px black;
+}
+.Create_Form label{
+    display: grid;
+    padding: 7%;
+}
+.Create_Form label input{
+    border: 2px solid #424f42;
+    background: #767d76;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px 2px black;
+}
+.Create_Form label span{
+    font-size: 25px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    margin: 13px;
+    box-shadow: 2px 10px 7px -5px black;
+}
+.Create_Form button{
+    border: 2px solid #1c4c4c;
+    background: #549c9c;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 27px;
+    box-shadow: 2px 4px 8px 2px black;
+}

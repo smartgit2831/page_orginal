@@ -1,0 +1,63 @@
+.shoping-card{
+    width: 100%;
+}
+.shoping-card .title a{
+    text-decoration: none;
+    color: #265860;
+}
+.dragble-list img{
+    height: 200px;
+    width: 70% !important;
+    margin: auto;
+}
+.dragble-list .title{
+    padding:0px 20px;
+    padding-bottom: 20px;
+}
+.dragble-list .title span{
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 2.5px solid #e74c3c;
+}
+.dragble-list p{
+    width: 80%;
+    text-align: center;
+    margin-right: 10%;
+    background:rgb(255, 252, 55);
+    padding:8px ;
+    border-top-right-radius: 50px;
+}
+.ico{
+    border: 2px solid rgb(39, 207, 67);
+    background-color: rgb(39, 207, 67);
+    font-size: 1.2em;
+    display: flex;
+    transition: 0.95s;
+    width: 120px;
+    box-shadow: 2px 2px 8px 8px rgb(249, 249, 250,0.8);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.ico:hover{
+    width: 100%;
+}
+.ico:hover .button{
+    display: block;
+}
+.ico .button{
+    display: none;
+}
+.display-none{
+    display: none;
+}
+.display-block{
+    display: block;
+}
+.titleee{
+    color: black;
+    text-decoration: none;
+}
+.item{
+    cursor: pointer;
+}
