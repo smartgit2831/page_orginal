@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/smartgit2831/page_orginal/static/css/main.a0cbb22c.css",
-    "main.js": "/smartgit2831/page_orginal/static/js/main.d4c02a72.js",
-    "index.html": "/smartgit2831/page_orginal/index.html",
-    "main.a0cbb22c.css.map": "/smartgit2831/page_orginal/static/css/main.a0cbb22c.css.map",
-    "main.d4c02a72.js.map": "/smartgit2831/page_orginal/static/js/main.d4c02a72.js.map"
+    "main.css": "/page_orginal/static/css/main.a0cbb22c.css",
+    "main.js": "/page_orginal/static/js/main.d4c02a72.js",
+    "index.html": "/page_orginal/index.html",
+    "main.a0cbb22c.css.map": "/page_orginal/static/css/main.a0cbb22c.css.map",
+    "main.d4c02a72.js.map": "/page_orginal/static/js/main.d4c02a72.js.map"
   },
   "entrypoints": [
     "static/css/main.a0cbb22c.css",
