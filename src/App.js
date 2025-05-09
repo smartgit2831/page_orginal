@@ -11,7 +11,7 @@ import Search from './pages/Search';
 import Buy from './pages/Buy';
 import Edit from './pages/Edit';
 
-
+console.log(window.location.pathname);
 function App() {
   return (
     <div className={'App'} >
@@ -22,6 +22,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='*' element={<Navigate to='/'/>}/>
+          <Route path='/smartgit2831/page_orginal' element={<Navigate to='/'/>}/>
           <Route path='/:name/:id' element={<Detail/>}/>
           <Route path='/edit/:name/:id' element={<Edit/>}/>
           <Route path='/more/:name' element={<More/>}/>
