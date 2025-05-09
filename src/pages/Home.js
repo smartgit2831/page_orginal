@@ -5,12 +5,14 @@ import SlideAuto from '../component/SlideAuto'
 import Soruhi from '../component/Soruhi'
 import Abnama from '../component/Abnama'
 import Pishnahad from '../component/Pishnahad'
+import Parametr from '../component/Parametr'
 export default function Home() {
   return (
     <div>
       <Header/>
       <Pishnahad/>
       <PishnahadVizhe/>
+      <Parametr/>
       <Rushoey/>
       <SlideAuto/>
       <Soruhi/>

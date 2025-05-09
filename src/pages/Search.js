@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import { useLocation, NavLink } from 'react-router-dom'
 import { useFetch } from '../hooks/useFetch'
 import '../css/Search.css'
@@ -43,12 +42,12 @@ export default function Search() {
                                 </div>
                                 <div className="left">
                                     <div className="extend-btn">
-                                        <a className="b-text" href="">علاقه</a>
-                                        <a className="b-icon" href=""><i className="fas fa-heart"></i></a>
+                                        <a className="b-text" href="#">علاقه</a>
+                                        <a className="b-icon" href="#"><i className="fas fa-heart"></i></a>
                                     </div>
                                     <div className="extend-btn">
-                                        <a className="b-text" href="">خرید</a>
-                                        <a className="b-icon" href=""><i className="fas fa-shopping-cart"></i></a>
+                                        <a className="b-text" href="#">خرید</a>
+                                        <a className="b-icon" href="#"><i className="fas fa-shopping-cart"></i></a>
                                     </div>
                                 </div>
                             </div>
